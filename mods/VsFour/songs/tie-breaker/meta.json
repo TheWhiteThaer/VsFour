@@ -1,0 +1,8 @@
+{
+	"displayName": "Tie Breaker",
+	"icon": "announcer",
+	"color": "#9271FD",
+	"coopAllowed": true,
+	"opponentModeAllowed": true,
+	"needsVoices": false
+}

@@ -1,0 +1,8 @@
+{
+	"displayName": "Four",
+	"icon": "four",
+	"color": "#9271FD",
+	"coopAllowed": true,
+	"opponentModeAllowed": true,
+	"needsVoices": false
+}

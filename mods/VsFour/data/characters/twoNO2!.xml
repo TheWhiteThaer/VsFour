@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-character>
+<character x="-400" icon="two" y="100" isGF="false" color="#31B0D1" isPlayer="false" sprite="twoNO!">
+	<anim x="-4" loop="true" y="0" fps="24" anim="NO! instance 1" name="NO"/>
+</character>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="TV.png">
+	<!-- Created with Adobe Animate version 24.0.0.305 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="TVShowingVotes0000" x="0" y="0" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0001" x="1215" y="0" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0002" x="2430" y="0" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0003" x="3645" y="0" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0004" x="4860" y="0" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0005" x="6075" y="0" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0006" x="0" y="1144" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0007" x="1215" y="1144" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0008" x="2430" y="1144" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0009" x="3645" y="1144" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0010" x="4860" y="1144" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0011" x="6075" y="1144" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0012" x="0" y="2288" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0013" x="1215" y="2288" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0014" x="2430" y="2288" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0015" x="3645" y="2288" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0016" x="4860" y="2288" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0017" x="6075" y="2288" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0018" x="0" y="3432" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0019" x="1215" y="3432" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0020" x="2430" y="3432" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0021" x="3645" y="3432" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0022" x="4860" y="3432" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0023" x="6075" y="3432" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0024" x="0" y="4576" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0025" x="1215" y="4576" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0026" x="2430" y="4576" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0027" x="3645" y="4576" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0028" x="4860" y="4576" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0029" x="6075" y="4576" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0030" x="0" y="5720" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0031" x="1215" y="5720" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0032" x="2430" y="5720" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0033" x="3645" y="5720" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0034" x="4860" y="5720" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0035" x="6075" y="5720" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0036" x="0" y="6864" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0037" x="1215" y="6864" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0038" x="2430" y="6864" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0039" x="3645" y="6864" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0040" x="4860" y="6864" width="1215" height="1144"/>
+	<SubTexture name="TVShowingVotes0041" x="6075" y="6864" width="1215" height="1144"/>
+</TextureAtlas>

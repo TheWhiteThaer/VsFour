@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-400" icon="two" y="100" isGF="false" color="#2CFF00" isPlayer="false" sprite="twodep">
+	<anim x="-4" loop="true" y="0" fps="24" anim="twodepidle instance 1" name="idle"/>
+	<anim x="-4" loop="false" y="0" fps="24" anim="twodepup instance 1" name="singUP"/>
+	<anim x="-4" loop="false" y="0" fps="24" anim="twodepleft instance 1" name="singLEFT"/>
+	<anim x="-4" loop="false" y="0" fps="24" anim="twodepright instance 1" name="singRIGHT"/>
+	<anim x="-4" loop="false" y="0" fps="24" anim="twodepdown instance 1" name="singDOWN"/>
+</character>

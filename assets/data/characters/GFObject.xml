@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="100" icon="gf" y="350" isGF="true" color="#D13131" isPlayer="false" sprite="GFObject">
+	<anim x="0" loop="true" y="0" fps="24" anim="GfObject Normal instance 1" name="idle"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="GfObject Crying instance 1" name="cry"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="GfObject Hey instance 1" name="Hey"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="sPEAKER instance 1" name="SpeakerOne"/>
+	<anim x="0" loop="false" y="0" fps="24" anim="sPEAKER instance 2" name="SpeakerTwo"/>
+</character>

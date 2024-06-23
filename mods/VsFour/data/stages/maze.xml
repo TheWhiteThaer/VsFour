@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="0.8" name="four" folder="stages/evil/" startCamPosY = "0" startCamPosX="0">
+	<sprite name = "blacker"   x = "150" y = "0"   sprite = "blacker"   scroll = "0.9" />
+	<sprite name = "maze"      x = "-700"  y = "-150"     sprite = "maze"      scroll = "0.9"/>
+	<girlfriend />
+	<dad       x = "150"/>
+	<boyfriend x = "10050"/>
+</stage>

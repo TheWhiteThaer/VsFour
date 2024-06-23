@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="0" icon="Leafy" y="0" isGF="false" camy="100" color="#6C6C6C" isPlayer="false" sprite="Leafy">
+	<anim x="-4" loop="true" y="0" fps="24" anim="MLeafy Normal" name="idle"/>
+	<anim x="6" loop="false" y="0" fps="24" anim="MLeafy Up" name="singUP"/>
+	<anim x="21" loop="false" y="0" fps="24" anim="MLeafy Left" name="singLEFT"/>
+	<anim x="-4" loop="false" y="-2" fps="24" anim="MLeafy Right" name="singRIGHT"/>
+	<anim x="-4" loop="false" y="-31" fps="24" anim="MLeafy Down" name="singDOWN"/>
+	<anim x="16" loop="false" y="30" fps="24" anim="MLeafy ThrowKnife" name="knife"/>
+</character>

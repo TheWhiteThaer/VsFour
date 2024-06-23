@@ -1,0 +1,70 @@
+import funkin.game.PlayState;
+import flixel.tweens.FlxTweenType;
+
+var healthBarSpr:FlxSprite;
+var healthShit:FlxSprite;
+
+var changedHealth:Bool = false;
+
+var startTime:Float;
+
+var iconPlayerOne:HealthIcon;
+var iconPlayerTwo:HealthIcon;
+
+var vs:FlxText;
+
+var scaleTween:FlxTween;
+
+
+function createPost() { 
+}
+
+
+function create() {
+      healthBarSpr = new FlxSprite(235, 600).loadGraphic(Paths.image('game/healthBar'));
+      healthBarSpr.scale.x = 1;
+      healthBarSpr.scale.y = 0.8;
+      healthBarSpr.cameras = [camHUD];
+      add(healthBarSpr);
+
+      
+      iconPlayerOne = new HealthIcon(boyfriend != null ? boyfriend.getIcon() : "face", true);
+      iconPlayerTwo = new HealthIcon(dad != null ? dad.getIcon() : "face", false);
+      
+      iconPlayerOne.x = 630;
+      iconPlayerOne.y = iconPlayerTwo.y = 60;
+      iconPlayerTwo.x = iconPlayerOne.x - 170;
+      
+      add(iconPlayerOne);
+      add(iconPlayerTwo);
+      
+      vs = new FlxText(600, 550, FlxG.width, "VS", 20);
+      vs.cameras = [camHUD];
+      add(vs);
+
+      healthShit = new FlxSprite(255, 630).makeGraphic(healthBarSpr.width - 40, healthBarSpr.height - 60, FlxColor.WHITE);
+      healthShit.cameras = [camHUD];
+      add(healthShit);
+
+}
+ 
+
+
+function update(elapsed:Float) {
+
+
+      if(!changedHealth) {
+            health = 2;
+            changedHealth = true;
+      }
+      
+      healthShit.scale.x = health / 2;
+
+      remove(iconP1);
+      remove(iconP2);
+      remove(healthBar);
+      remove(healthBarBG);
+
+}
+
+

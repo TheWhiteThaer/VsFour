@@ -1,0 +1,1 @@
+{"events":[{"params":[1],"name":"Camera Movement","time":0},{"params":[false,"Linear","InOut","1"],"name":"Cinematics (HUD)","time":0},{"params":["30","Linear","InOut","1"],"name":"Cinematics (Bar)","time":0}]}

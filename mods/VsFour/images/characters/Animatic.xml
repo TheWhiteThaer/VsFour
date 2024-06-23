@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Animatic .png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="Animat Right0002" x="0" y="0" width="1083" height="1207" frameX="-94" frameY="-7" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Right0001" x="0" y="1207" width="1073" height="1208" frameX="-114" frameY="-6" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Right0000" x="1083" y="0" width="1067" height="1184" frameX="-201" frameY="-31" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Left0002" x="3031" y="1697" width="1058" height="619" frameX="-60" frameY="-600" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Left0001" x="0" y="2415" width="1064" height="612" frameX="-53" frameY="-606" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Left0000" x="3031" y="0" width="1087" height="761" frameX="-26" frameY="-456" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Down0002" x="2150" y="0" width="881" height="949" frameX="-254" frameY="-297" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Down0001" x="3031" y="761" width="870" height="936" frameX="-251" frameY="-309" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Down0000" x="1083" y="1184" width="977" height="893" frameX="-170" frameY="-357" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Up0002" x="4118" y="2186" width="536" height="1156" frameX="-354" frameY="-69" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Up0001" x="4118" y="1032" width="537" height="1154" frameX="-363" frameY="-65" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat Up0000" x="2150" y="949" width="667" height="1210" frameX="-315" frameY="2" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat idle0003" x="0" y="3027" width="631" height="1015" frameX="-341" frameY="-204" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat idle0002" x="0" y="3027" width="631" height="1015" frameX="-341" frameY="-204" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat idle0001" x="4118" y="0" width="603" height="1032" frameX="-341" frameY="-186" frameWidth="1280" frameHeight="1280"/>
+	<SubTexture name="Animat idle0000" x="4118" y="0" width="603" height="1032" frameX="-341" frameY="-186" frameWidth="1280" frameHeight="1280"/>
+</TextureAtlas>
