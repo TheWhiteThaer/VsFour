@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "four",
+	"difficulties": [
+		"LEGACY"
+	],
+	"parsedColor": -1,
+	"color": "#FFFFFF",
+	"name": "four legacy",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Four LEGACY",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 174
+}
