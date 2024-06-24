@@ -20,7 +20,7 @@ function create() {
 
 function update(elapsed) {
       // No Need to explain it
-      if(deaths >= 3 && !isInGameOverMenu) {
+      if(deaths >= 1 && !isInGameOverMenu) {
             fourHelp();
       }
 
@@ -50,18 +50,29 @@ function fourHelp() {
             canPause = true;
             //Bot Takes Over
             playerStrums.cpu = true;
-            //Accuracy equals to one so it won't take you to cake at stake
-            accuracy = 1;
             // Plays The Music
             FlxG.sound.music.play();
-            //Making The Rating S++
-            for(e in comboRatings)      
-                  curRating = e;
             //Plays The Vocals
             vocals.play();
       }); 
 }
 
+
+function onDadHit(e) {
+      if(curCameraTarget == 1 ){
+            //Accuracy equals to one so it won't take you to cake at stake
+            accuracy = 1;
+
+
+            //Making The Rating S++
+            for(e in comboRatings)      
+                  curRating = e;
+
+            // .....
+            health += 0.01;
+            songScore += 1000;
+      }
+}
 
 function onGameOver() {
       deaths ++;
