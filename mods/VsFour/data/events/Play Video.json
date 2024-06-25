@@ -1,0 +1,14 @@
+{
+	"params": [
+		{
+			"name": "Video",
+			"type": "String",
+			"defaultValue": ""
+		},
+        {
+			"name": "Folder",
+			"type": "String",
+			"defaultValue": ""
+		}
+	]
+}
