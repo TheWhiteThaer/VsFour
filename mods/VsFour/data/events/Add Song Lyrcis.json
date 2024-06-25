@@ -1,0 +1,19 @@
+{
+  "params": [
+    {
+      "name": "Lyrics",
+      "type": "String",
+      "defaultValue": "Bee Boo Baa"
+    },
+    {
+      "name": "Duration",
+      "type": "String",
+      "defaultValue": "1"
+    },
+    {
+      "name": "Font",
+      "type": "String",
+      "defaultValue": "vcr.tff"
+    }
+  ]
+}

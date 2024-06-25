@@ -1,5 +1,6 @@
 import funkin.game.HealthIcon;
-
+import funkin.game.PlayState;
+import funkin.game.StrumLine; 
 /**
       Will Determind if you need help or not
 **/
@@ -18,10 +19,27 @@ function create() {
 }
 
 
+var bot:Bool = false;
 function update(elapsed) {
       // No Need to explain it
       if(deaths >= 1 && !isInGameOverMenu) {
             fourHelp();
+      }
+
+      if(bot) {
+            var currentTime = Conductor.songPosition;
+            for (s in playerStrums) {
+                  if (s.lastHit + (Conductor.crochet / 2) < currentTime && s.getAnim() == "confirm") {
+                      s.playAnim("static");
+                  }
+            }
+              
+              // Handle notes separately
+            for (no in playerStrums.notes) {
+                  if (!no.wasGoodHit && !no.avoid && no.strumTime < currentTime) {
+                        goodNoteHit(playerStrums, no); // Assuming `goodNoteHit` can handle this correctly
+                  }
+            }
       }
 
 }
@@ -39,9 +57,9 @@ function fourHelp() {
       deaths = 0;
       //Wait Until The Sound Is Finished
       new FlxTimer().start(8.5, function (tmr:FlxTimer) {
-                  //Four Notes Visuals
-                  isFourHelping = true;
-                  //TO DO : MAKE THE NOTES FOUR'S NOTES!!!
+            //Four Notes Visuals
+            isFourHelping = true;
+            //TO DO : MAKE THE NOTES FOUR'S NOTES!!!
                   
       });
       //Four Notes Logic
@@ -49,7 +67,7 @@ function fourHelp() {
             //Can Open Pause Mneu
             canPause = true;
             //Bot Takes Over
-            playerStrums.cpu = true;
+            bot = true;
             // Plays The Music
             FlxG.sound.music.play();
             //Plays The Vocals
@@ -57,20 +75,16 @@ function fourHelp() {
       }); 
 }
 
+function onPlayerHit(event) {
+      if(bot) {
+            boyfriend.playSingAnim(event.direction, event.animSuffix, SING, event.forceAnim);
+      }
 
-function onDadHit(e) {
-      if(curCameraTarget == 1 ){
-            //Accuracy equals to one so it won't take you to cake at stake
-            accuracy = 1;
+}
 
-
-            //Making The Rating S++
-            for(e in comboRatings)      
-                  curRating = e;
-
-            // .....
-            health += 0.01;
-            songScore += 1000;
+function onInputUpdate(e) {
+      if(bot) {
+            e.cancel();
       }
 }
 
